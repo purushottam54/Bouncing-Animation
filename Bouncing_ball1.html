@@ -1,0 +1,204 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document111</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+      }
+
+      .container11 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: #1b1b1b;
+      }
+
+      .box1 {
+        width: 50px;
+        height: 50px;
+        margin: 10px;
+        background: #ffa31a;
+        border-radius: 100px;
+        text-align: center;
+      }
+      .box2 {
+        width: 50px;
+        height: 50px;
+        margin: 10px;
+        background: #ffa31a;
+        border-radius: 100px;
+        text-align: center;
+      }
+      .box3 {
+        width: 50px;
+        height: 50px;
+        margin: 10px;
+        background: #ffa31a;
+        border-radius: 100px;
+        text-align: center;
+      }
+      .box4 {
+        width: 50px;
+        height: 50px;
+        margin: 10px;
+        background: #ffa31a;
+        border-radius: 100px;
+        text-align: center;
+      }
+      .box5 {
+        width: 50px;
+        height: 50px;
+        margin: 10px;
+        background: #ffa31a;
+        border-radius: 100px;
+        text-align: center;
+      }
+      .box6 {
+        width: 50px;
+        height: 50px;
+        margin: 10px;
+        background: #ffa31a;
+        border-radius: 100px;
+        text-align: center;
+      }
+     
+
+      .box1 h1:hover{
+         box-shadow:  0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa, 0 0 82px rgb(255, 0, 212), 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+      }
+      .box2 h1:hover{
+         box-shadow:  0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+      }
+      .box3 h1:hover{
+         box-shadow:  0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+      }
+      .box4 h1:hover{
+         box-shadow:  0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+      }
+      .box5 h1:hover{
+         box-shadow:  0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+      }
+      .box6 h1:hover{
+         box-shadow:  0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container11">
+      <div class="box1"><h1>p</h1></div>
+      <div class="box2"><h1>u</h1></div>
+      <div class="box3"><h1>r</h1></div>
+      <div class="box4"><h1>u</h1></div>
+      <div class="box5"><h1>s</h1></div>
+      <div class="box6"><h1>h</h1></div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+      integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+      integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script>
+        
+      gsap.to(".box1", {
+        y: "-100px",
+        repeat: -1,
+        delay: 0,
+        color: "white",
+        duration: 1.2,
+        ease: "liner",
+        borderRadius: 1,
+        rotation:360,
+
+
+        yoyo: true,
+        stagger: 1,
+      });
+      gsap.to(".box2", {
+        y: "-100px",
+        repeat: -1,
+        delay: 0,
+        color: "white",
+        duration: 1.2,
+        ease: "liner",
+        borderRadius: 1,
+        rotation:360,
+
+        yoyo: true,
+        stagger: 1,
+      });
+      gsap.to(".box3", {
+        y: "-100px",
+        repeat: -1,
+        delay: 0,
+        color: "white",
+        duration: 1.2,
+        ease: "liner",
+        borderRadius: 1,
+        rotation:360,
+        yoyo: true,
+        stagger: 1,
+      });
+      gsap.to(".box4", {
+        y: "-100px",
+        repeat: -1,
+        delay: 0,
+        color: "white",
+        duration: 1.2,
+        ease: "liner",
+        borderRadius: 1,
+        rotation:360,
+        yoyo: true,
+        stagger: 1,
+      });
+      gsap.to(".box5", {
+          y: "-100px",
+          
+        repeat: -1,
+        delay: 0,
+        color: "white",
+        duration: 1.2,
+        ease: "liner",
+        borderRadius: 1,
+        rotation:360,
+        yoyo: true,
+        stagger: 1,
+      });
+      gsap.to(".box6", {
+        y: "-100px",
+        repeat: -1,
+        delay: 0,
+        color: "white",
+        duration: 1.2,
+        ease: "liner",
+        borderRadius: 1,
+        rotation:360,
+        yoyo: true,
+        stagger: 1,
+      });
+
+     
+    </script>
+  </body>
+</html>
